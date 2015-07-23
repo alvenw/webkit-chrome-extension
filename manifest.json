@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "StyleViewer",
-  "description": "placeholder",
+  "name": "InvertColorizer",
+  "description": "Spices up your computer to invert the colors on your computer!",
   "version": "1.0",
 
   "browser_action": {
