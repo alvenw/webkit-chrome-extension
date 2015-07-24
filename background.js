@@ -14,6 +14,14 @@ function click(e) {
   window.close();
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    var link = document.getElementByTagName('button');
+    // onClick's logic below:
+    link.addEventListener('click', function() {
+        hellYeah('xxx');
+    });
+});
+
 document.addEventListener('DOMContentLoaded', function () {
   var button = document.querySelectorAll('button');
   for (var i = 0; i < button.length; i++) {
